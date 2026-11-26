@@ -1,7 +1,7 @@
 /* MIND+ service worker: precache the whole app, serve it cache-first so it opens offline,
    and replace the cache when a new version ships.
    >>> Bump VERSION on every deploy, or phones keep showing the old copy. <<< */
-const VERSION = 'mindplus-2026-11-26a';
+const VERSION = 'mindplus-2026-11-26b';
 const ASSETS = [
   './', 'index.html', 'css/app.css', 'js/app.js',
   'content/power.js', 'content/stoic.js', 'content/mind.js', 'content/habits.js',

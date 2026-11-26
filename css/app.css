@@ -30,7 +30,7 @@
 html, body { margin: 0; padding: 0; }
 html { -webkit-text-size-adjust: 100%; background: var(--bg); }
 body {
-  font-family: var(--sans); color: var(--text); background: var(--bg);
+  font-family: var(--sans); color: var(--text); background: transparent;   /* html paints the base; the glow below sits on top of it */
   font-size: 15px; line-height: 1.45; min-height: 100dvh;
   -webkit-font-smoothing: antialiased; overscroll-behavior-y: none;
   -webkit-user-select: none; user-select: none; -webkit-touch-callout: none;
